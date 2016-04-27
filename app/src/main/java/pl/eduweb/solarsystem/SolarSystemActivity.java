@@ -1,6 +1,7 @@
 package pl.eduweb.solarsystem;
 
 import android.os.Bundle;
+import android.support.annotation.Nullable;
 import android.support.design.widget.NavigationView;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
@@ -30,6 +31,7 @@ public class SolarSystemActivity extends AppCompatActivity
     TabLayout moonsTabLayout;
     @Bind(R.id.containerLayout)
     FrameLayout containerLayout;
+    @Nullable
     @Bind(R.id.secondContainerLayout)
     FrameLayout secondContainerLayout;
 
